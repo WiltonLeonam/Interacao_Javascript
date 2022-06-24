@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  background: -webkit-linear-gradient(left,#000 0%,#f5f5dc 100%);
+  background: linear-gradient(to right,#000 0%,#f5f5dc 100% );
+
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  background: -webkit-linear-gradient(left,#000 0%,#f5f5dc 100%);
+  background: linear-gradient(to right,#000 0%,#f5f5dc 100% );
+
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+h3{
+  position: relative;
+  margin-left: 550px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  background: -webkit-linear-gradient(left,#000 0%,#f5f5dc 100%);
+  background: linear-gradient(to right,#000 0%,#f5f5dc 100% );
+
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.nome100{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px groove #000;
+  width: 400px;
+  height: 10px;
+  box-shadow: 5px 5px 5px #ff0;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 40px;
+  position: relative;
+  margin-left: 150px ;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+}
+
+.form1{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 550px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: block;
+}
+
+.form2{
+    transition: 1s;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+    
+}
+
+.bt{
+  position: relative;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.btt{
+  position: relative;
+  margin-left: 600px;
+  margin-top: 30px;
+}
+
+.bt1{
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: green;
+  border: 3px solid #000;
+  width: 150px;
+  height: 30px;
+}
+
+.bt2{
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: red;
+  border: 3px solid #000;
+  width: 150px;
+  height: 30px;
+}

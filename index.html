@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="form1">
+    <h1>Qual é  o seu nome ?</h1>
+    <input class="nome100" type="text" placeholder="Nome e Sobrenome" id="texto"/>
+   <div class="bt"> 
+    <button href="http://127.0.0.1:5500/inddex.html" onclick="minhaFuncao()" class="bt1" blank >Pronto</button>  
+     <button class="bt2" type="reset">Limpar</button>
+   </div>   
+  </div>
+  <div class="form2">
+    <h2>Olá Sr(a),<span id="resultado"></span> estamos felizes que você está aqui ! </h2><br><br>
+      
+  <script>
+     function minhaFuncao(){
+      
+      var texto = document.querySelector('#texto').value;
+
+     
+      document.querySelector('#resultado').innerHTML = texto;
+    
+    }
+    
+     
+  </script>
+</body>
+</html>
